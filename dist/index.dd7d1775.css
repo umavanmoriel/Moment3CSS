@@ -1,26 +1,6 @@
 @media screen and (width >= 500px) {
   footer {
-    color: #fff;
     background-color: #006;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    display: flex;
-
-    & p {
-      font-family: Merriweather;
-      font-size: 18px;
-      font-weight: 700;
-      line-height: 36px;
-    }
-  }
-}
-
-@media screen and (width <= 500px) {
-  footer {
-    color: #00008b;
-    background-color: #0ff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -29,10 +9,30 @@
   }
 
   footer p {
+    color: #fff;
+    font-family: Merriweather;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+}
+
+@media screen and (width <= 500px) {
+  footer {
+    background-color: #006;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    display: flex;
+  }
+
+  p {
+    color: #fff;
     font-family: Merriweather;
     font-size: 16px;
     font-weight: 700;
     line-height: 36px;
   }
 }
-/*# sourceMappingURL=index.7d17c51a.css.map */
+/*# sourceMappingURL=index.dd7d1775.css.map */
