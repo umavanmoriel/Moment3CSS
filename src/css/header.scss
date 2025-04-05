@@ -3,7 +3,7 @@
 
 @include base.responsive-layout("large") {
 
-    nav {
+    .header-nav {
         ul {
             display: flex;
             gap: 60px;
@@ -93,7 +93,7 @@
 
 @include base.responsive-layout("medium") {
 
-    nav {
+    .header-nav {
         ul {
             display: flex;
             gap: 60px;
@@ -181,7 +181,7 @@
 }
 
 @include base.responsive-layout("small") {
-    nav {
+    .header-nav {
         ul {
             display: flex;
             flex-direction: row;

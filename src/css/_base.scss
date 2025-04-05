@@ -17,6 +17,12 @@ $font-size-p-phone: 18px;
 $font-size-nav-desktop: 22px;
 $font-size-nav-phone: 18px;
 
+$line-height-h: 36px;
+$line-height-p: 38px;
+
+$font-weight-h: 700;
+$font-weight-p: 400;
+
 $background-color: #000033;
 
 $font-color: white;
@@ -46,4 +52,12 @@ $dark-background-color: darken($background-color, 5%);
       @warn "Ingen matchande breakpoint för #{$breakpoint} hittades.";
     }
   }
+
   
+
+  //General styling
+
+  body {
+    background-color: $background-color;
+  }
+
