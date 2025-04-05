@@ -3,7 +3,7 @@
 
 @include base.responsive-layout("large") {
     footer {
-        background-color: base.$background-color;
+        background-color: base.$dark-background-color;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@
 
 @include base.responsive-layout("medium") {
     footer {
-        background-color: base.$background-color;
+        background-color: base.$dark-background-color;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -55,7 +55,7 @@
 
 @include base.responsive-layout("small") {
     footer {
-        background-color:base.$background-color;
+        background-color:base.$dark-background-color;
         height: 200px;
         display: flex;
         flex-direction: column;
