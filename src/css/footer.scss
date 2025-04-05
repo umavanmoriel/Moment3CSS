@@ -1,6 +1,9 @@
-@media screen and (min-width: 500px) {
+@use 'base';
+@use 'component';
+
+@include base.responsive-layout("large") {
     footer {
-        background-color: #000033;
+        background-color: base.$background-color;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -14,19 +17,45 @@
 
         li {
             text-align: center;
-            font-family: 'Roboto';
-            font-size: 22px;
+            font-family: base.$heading-font;
+            font-size: base.$font-size-nav-desktop;
             font-weight: 700;
             line-height: 38px;
-            color: white;
+            color: base.$font-color;
         }
     }
 
 }
 
-@media screen and (max-width: 600px) {
+@include base.responsive-layout("medium") {
     footer {
-        background-color: #000033;
+        background-color: base.$background-color;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        li {
+            text-align: center;
+            font-family: base.$heading-font;
+            font-size: base.$font-size-nav-phone;
+            font-weight: 700;
+            line-height: 38px;
+            color: base.$font-color;
+        }
+    }
+
+}
+
+@include base.responsive-layout("small") {
+    footer {
+        background-color:base.$background-color;
         height: 200px;
         display: flex;
         flex-direction: column;
@@ -42,11 +71,11 @@
 
         li {
             text-align: center;
-            font-family: 'Roboto';
-            font-size: 18px;
+            font-family: base.$heading-font;
+            font-size: base.$font-size-nav-phone;
             font-weight: 700;
             line-height: 38px;
-            color: white;
+            color: base.$font-color;
         }
     }
 }

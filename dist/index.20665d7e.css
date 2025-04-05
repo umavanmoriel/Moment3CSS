@@ -1,7 +1,8 @@
-@media screen and (width >= 500px) {
+@import "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+@media (width >= 900px) {
   nav ul {
     gap: 60px;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 22px;
     font-weight: 700;
     line-height: 36px;
@@ -31,17 +32,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: Roboto;
-    font-size: 18px;
+    font-family: Roboto, Arial;
+    font-size: 22px;
     font-weight: 700;
     display: flex;
     position: absolute;
     top: 100px;
-  }
-
-  .menu-list li {
-    cursor: pointer;
-    padding: 0 40px;
   }
 
   .menu-list {
@@ -53,9 +49,18 @@
     display: flex;
   }
 
+  .menu-list li {
+    cursor: pointer;
+    padding: 0 40px;
+  }
+
+  .menu-list li:hover {
+    background-color: #6a00cc;
+  }
+
   .menu-heading {
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 22px;
     font-weight: 700;
     line-height: 36px;
@@ -79,10 +84,10 @@
   }
 }
 
-@media screen and (width <= 950px) and (width >= 650px) {
+@media (width >= 500px) and (width <= 900px) {
   nav ul {
     gap: 60px;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 22px;
     font-weight: 700;
     line-height: 36px;
@@ -112,17 +117,12 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: Roboto;
-    font-size: 18px;
+    font-family: Roboto, Arial;
+    font-size: 22px;
     font-weight: 700;
     display: flex;
     position: absolute;
     top: 100px;
-  }
-
-  .menu-list li {
-    cursor: pointer;
-    padding: 0 40px;
   }
 
   .menu-list {
@@ -134,9 +134,18 @@
     display: flex;
   }
 
+  .menu-list li {
+    cursor: pointer;
+    padding: 0 40px;
+  }
+
+  .menu-list li:hover {
+    background-color: #6a00cc;
+  }
+
   .menu-heading {
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 22px;
     font-weight: 700;
     line-height: 36px;
@@ -160,11 +169,11 @@
   }
 }
 
-@media screen and (width <= 650px) {
+@media (width <= 500px) {
   nav ul {
     flex-direction: row;
     gap: 10px;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
@@ -194,18 +203,13 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 18px;
     font-weight: 700;
     display: flex;
     position: absolute;
     top: 100px;
     right: 0%;
-  }
-
-  .menu-list li {
-    cursor: pointer;
-    padding: 0 40px;
   }
 
   .menu-list {
@@ -215,6 +219,15 @@
     padding: 20px 0;
     list-style: none;
     display: flex;
+  }
+
+  .menu-list li {
+    cursor: pointer;
+    padding: 0 40px;
+  }
+
+  .menu-list li:hover {
+    background-color: #6a00cc;
   }
 
   .menu-heading {

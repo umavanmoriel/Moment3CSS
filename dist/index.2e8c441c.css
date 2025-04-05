@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-@media screen and (width >= 900px) {
+@media (width >= 900px) {
   body {
     background-color: #003;
   }
@@ -20,8 +20,8 @@
   main h1 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
-    font-size: 32px;
+    font-family: Roboto, Arial;
+    font-size: 34px;
     font-weight: 700;
     line-height: 36px;
   }
@@ -29,7 +29,7 @@
   main h2 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 28px;
     font-weight: 700;
     line-height: 36px;
@@ -38,14 +38,14 @@
   main p {
     text-align: center;
     color: #fff;
-    font-family: Merriweather;
+    font-family: Merriweather, sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 38px;
   }
 }
 
-@media screen and (width >= 500px) and (width <= 900px) {
+@media (width >= 500px) and (width <= 900px) {
   body {
     background-color: #003;
   }
@@ -61,8 +61,8 @@
   main h1 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
-    font-size: 28px;
+    font-family: Roboto, Arial;
+    font-size: 30px;
     font-weight: 700;
     line-height: 36px;
   }
@@ -70,7 +70,7 @@
   main h2 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 26px;
     font-weight: 700;
     line-height: 36px;
@@ -79,14 +79,18 @@
   main p {
     text-align: center;
     color: #fff;
-    font-family: Merriweather;
-    font-size: 22px;
+    font-family: Merriweather, sans-serif;
+    font-size: 20px;
     font-weight: 400;
     line-height: 38px;
   }
+
+  main img {
+    height: 300px;
+  }
 }
 
-@media screen and (width <= 500px) {
+@media (width <= 500px) {
   body {
     background-color: #003;
   }
@@ -102,8 +106,8 @@
   main h1 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
-    font-size: 22px;
+    font-family: Roboto, Arial;
+    font-size: 24px;
     font-weight: 700;
     line-height: 36px;
   }
@@ -111,7 +115,7 @@
   main h2 {
     text-align: center;
     color: #fff;
-    font-family: Roboto;
+    font-family: Roboto, Arial;
     font-size: 20px;
     font-weight: 700;
     line-height: 36px;
@@ -119,8 +123,8 @@
 
   main p {
     text-align: center;
+    font-family: 18px;
     color: #fff;
-    font-family: Merriweather;
     font-size: 18px;
     font-weight: 400;
     line-height: 38px;
