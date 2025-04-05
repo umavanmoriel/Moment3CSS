@@ -14,7 +14,8 @@ $font-size-h1-phone: 26px;
 $font-size-h2-phone: 20px;
 $font-size-p-phone: 18px;
 
-$font-size-nav-desktop: 22px;
+$font-size-nav-desktop: 28px;
+$font-size-nav-ipad: 22px;
 $font-size-nav-phone: 18px;
 
 $line-height-h: 36px;
@@ -61,3 +62,7 @@ $dark-background-color: darken($background-color, 5%);
     background-color: $background-color;
   }
 
+
+  a {
+    color: $font-color;
+  }

@@ -14,10 +14,6 @@
             font-weight: base.$font-weight-h;
             line-height: base.$line-height-h;
         }
-
-        a {
-            color: base.$font-color;
-        }
     }
     
     
@@ -83,6 +79,7 @@
         ul {
             display: flex;
             justify-content: center;
+            gap: 60px;
         }
 
         li {
@@ -108,14 +105,11 @@
             line-height: base.$line-height-h;
         }
 
-        a {
-            color: base.$font-color;
-        }
     }
     
     .dropdown-menu.show {
         font-family: base.$heading-font;
-        font-size: base.$font-size-nav-desktop;
+        font-size: base.$font-size-nav-ipad;
         font-weight: base.$font-weight-h;
         color: base.$font-color;
         background-color: base.$meny-color;
@@ -179,6 +173,7 @@
         ul {
             display: flex;
             justify-content: center;
+            gap: 60px;
         }
 
         li {
@@ -204,9 +199,6 @@
             line-height: base.$line-height-h;
         }
 
-        a {
-            color: base.$font-color;
-        }
     }
  
     .dropdown-menu.show {

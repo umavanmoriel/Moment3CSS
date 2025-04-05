@@ -3,6 +3,10 @@ body {
   background-color: #003;
 }
 
+a {
+  color: #fff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -90,27 +94,23 @@ footer {
   .header-nav .header-list {
     gap: 60px;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-  }
-
-  .header-nav a {
-    color: #fff;
   }
 
   .dropdown-menu.show {
     color: #fff;
     background-color: #00f;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
   }
 
   .menu-heading {
     color: #fff;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 36px;
   }
@@ -159,6 +159,7 @@ footer {
 
   footer ul {
     justify-content: center;
+    gap: 60px;
     display: flex;
   }
 
@@ -166,7 +167,7 @@ footer {
     text-align: center;
     color: #fff;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 38px;
   }
@@ -176,13 +177,9 @@ footer {
   .header-nav .header-list {
     gap: 60px;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 36px;
-  }
-
-  .header-nav a {
-    color: #fff;
   }
 
   .dropdown-menu.show {
@@ -196,7 +193,7 @@ footer {
   .menu-heading {
     color: #fff;
     font-family: Roboto, Arial;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 700;
     line-height: 36px;
   }
@@ -249,6 +246,7 @@ footer {
 
   footer ul {
     justify-content: center;
+    gap: 60px;
     display: flex;
   }
 
@@ -269,10 +267,6 @@ footer {
     font-size: 18px;
     font-weight: 700;
     line-height: 36px;
-  }
-
-  .header-nav a {
-    color: #fff;
   }
 
   .dropdown-menu.show {
