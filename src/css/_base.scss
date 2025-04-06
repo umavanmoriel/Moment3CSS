@@ -4,8 +4,23 @@ $background-color-light: white;
 $font-color-light: white;
 $font-color-dark: #000033;
 
+body {
+  background-color: $background-color-dark;
+  color: $font-color-light;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+      background-color: $background-color-light;
+      color: $font-color-dark;
+  }
+}
 
 
+
+a {
+  color: $font-color-light;
+}
 
 
 $meny-color: #0000ff;
