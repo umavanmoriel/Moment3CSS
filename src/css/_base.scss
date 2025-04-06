@@ -1,3 +1,19 @@
+$background-color-dark: #000033;
+$background-color-light: white;
+
+$font-color-light: white;
+$font-color-dark: #000033;
+
+
+
+
+
+$meny-color: #0000ff;
+
+$light-meny-color: lighten($meny-color, 10%);
+
+$darker-background-color: darken($background-color-dark, 5%);
+
 
 $heading-font: 'Roboto', Arial;
 $paragraph-font:'Merriweather', sans-serif;
@@ -24,15 +40,7 @@ $line-height-p: 38px;
 $font-weight-h: 700;
 $font-weight-p: 400;
 
-$background-color: #000033;
 
-$font-color: white;
-
-$meny-color: #0000ff;
-
-$light-meny-color: lighten($meny-color, 10%);
-
-$dark-background-color: darken($background-color, 5%);
 
 //Mixin för olika responsive layout 
 
@@ -52,17 +60,5 @@ $dark-background-color: darken($background-color, 5%);
     } @else {
       @warn "Ingen matchande breakpoint för #{$breakpoint} hittades.";
     }
-  }
+}
 
-  
-
-  //General styling
-
-  body {
-    background-color: $background-color;
-  }
-
-
-  a {
-    color: $font-color;
-  }
